@@ -1,7 +1,8 @@
-.posts {
+.ghostPosts {
   list-style: none;
+  width: 600px;
 }
-.posts li {
+.ghostPosts li {
   padding: 15px;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -14,4 +15,5 @@
   background-size: 200% 100%;
   animation: loading 1.5s infinite linear;
   color: #000;
+  min-height: 60px;
 }
