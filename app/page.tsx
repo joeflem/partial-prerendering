@@ -6,7 +6,7 @@ export default async function Home() {
   let posts = await res.json();
   return (
     <div className={styles.page}>
-      <h1>Blog</h1>
+      <h1>Posts</h1>
       <ul className={styles.posts}>
         {posts.map((post: any) => (
           <li key={post.id}>
