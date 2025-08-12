@@ -20,9 +20,10 @@
 }
 .posts li {
   padding: 15px;
-  background: lightblue;
+  background: lightgray;
   border-radius: 10px;
   margin-bottom: 20px;
+  color: #000;
 }
 
 @media (prefers-color-scheme: dark) {

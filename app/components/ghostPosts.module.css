@@ -1,0 +1,17 @@
+.posts {
+  list-style: none;
+}
+.posts li {
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite linear;
+  color: #000;
+}
